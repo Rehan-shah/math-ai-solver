@@ -1,0 +1,89 @@
+.env
+media/
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Conda environment files
+env/
+*.env
+*.env.bak
+*.envrc
+.venv/
+venv/
+conda-meta/
+*.conda
+*.lock
+
+# Manim generated files
+media/
+*.mp4
+*.mov
+*.png
+*.json
+
+# Bun files
+.bun/
+bun.lockb
+
+# Node.js/Vite files
+node_modules/
+dist/
+temp/
+*.log
+*.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
