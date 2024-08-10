@@ -164,7 +164,7 @@ async def root(problem: str):
         final_clip = final_clip.set_duration(final_duration)
 
         # Export the final video
-        output_path = "./my-app/public/final_video.mp4"
+        output_path = "../frontend/public/final_video.mp4"
         final_clip.write_videofile(output_path, codec='libx264', audio_codec='aac', fps=video.fps)
 
         # Close the clips
